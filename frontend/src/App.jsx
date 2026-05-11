@@ -18,7 +18,7 @@ function App() {
     setQuestions([]);
 
     try {
-      const response = await fetch('http://localhost:8000/questions', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/questions`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
