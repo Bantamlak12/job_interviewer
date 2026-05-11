@@ -1,0 +1,12 @@
+# Node dependencies
+frontend/node_modules
+frontend/dist
+
+# Python dependencies and env
+backend/__pycache__
+backend/*.py[cod]
+backend/.env
+
+# Editor files
+.vscode
+.DS_Store
